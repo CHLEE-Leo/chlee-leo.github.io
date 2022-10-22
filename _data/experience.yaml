@@ -1,0 +1,25 @@
+experiences:
+
+- place: "UNIST"
+  time: "2018 - now"
+  title: "Ph.D. Student"
+  subtitle: "Department of Industrial Engineering <br/> Ulsan National Institute of Science and Technology (UNIST)"
+  category: "school"
+
+- place: "Hyundai Mipo Dockyard"
+  time: "July 2017 – December 2017"
+  title: "Data Analyst, Intern"
+  subtitle: "Work for Data Mining and Business Analysis"
+  category: "work"
+
+- place: "UNIST"
+  time: "Mar 2016 - June 2017"
+  title: "M.Sc. Student"
+  subtitle: "Department of Management Engineering <br/> Ulsan National Institute of Science and Technology (UNIST)"
+  category: "school"
+
+- place: "Ajou University"
+  time: "2011 - 2015"
+  title: "B.Sc. Student"
+  subtitle: "Bachelor of Economics"
+  category: "school"
