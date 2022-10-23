@@ -3,11 +3,17 @@ experiences:
 - place: "UNIST"
   time: "2018 - now"
   title: "Ph.D. Student"
-  subtitle: "Department of Industrial Engineering <br/> Ulsan National Institute of Science and Technology (UNIST)"
+  subtitle: "Department of Industrial Engineering <br/> Research for combining NLP techniques with Reinforcement Learning"
+  category: "school"
+
+- place: "Daewoong Pharmaceutical"
+  time: "Dec 2018 - now"
+  title: "Scholarship Student"
+  subtitle: "Daewoong Foundation Scholarship <br/> AI based Healthcare Research Grant Program for Master/Ph.D. Student"
   category: "school"
 
 - place: "Hyundai Mipo Dockyard"
-  time: "July 2017 – December 2017"
+  time: "July 2017 – Dec 2017"
   title: "Data Analyst, Intern"
   subtitle: "Work for Data Mining and Business Analysis"
   category: "work"
@@ -15,7 +21,7 @@ experiences:
 - place: "UNIST"
   time: "Mar 2016 - June 2017"
   title: "M.Sc. Student"
-  subtitle: "Department of Management Engineering <br/> Ulsan National Institute of Science and Technology (UNIST)"
+  subtitle: "Department of Industrial Engineering <br/> Research for applying Text Mining and Recommender Systems"
   category: "school"
 
 - place: "Ajou University"
