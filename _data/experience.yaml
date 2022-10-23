@@ -1,16 +1,16 @@
 experiences:
 
-- place: "Daewoong Pharmaceutical"
-  time: "Dec 2018 - now"
-  title: "Scholarship Student"
-  subtitle: "Daewoong Foundation Scholarship <br/> AI based Healthcare Research Grant Program for Master/Ph.D. Student"
-  category: "school"
-
 - place: "UNIST"
   time: "2018 - now"
   title: "Ph.D. Student"
   subtitle: "Department of Industrial Engineering <br/> Research for combining NLP techniques with RL"
   category: "school"
+
+- place: "Daewoong Pharmaceutical"
+  time: "Dec 2018 - now"
+  title: "Scholarship Student"
+  subtitle: "Daewoong Foundation Scholarship <br/> AI based Healthcare Research Grant Program"
+  category: "work"
 
 - place: "Hyundai Mipo Dockyard"
   time: "July 2017 – Dec 2017"
