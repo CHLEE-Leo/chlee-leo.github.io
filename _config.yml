@@ -1,7 +1,7 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /~chlee-leo.github.io
+baseurl: ""
 
 collections:
   projects:
