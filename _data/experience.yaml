@@ -1,0 +1,43 @@
+experiences:
+
+- place: "UNIST"
+  time: "2023.02.16"
+  title: "UNIST Best Research Award Winner"
+  subtitle: "College of Information and Biotechnology"
+  category: "award"
+
+- place: "UNIST"
+  time: "2018 - now"
+  title: "Ph.D. Student"
+  subtitle: "Department of Industrial Engineering <br/> Research for combining NLP techniques with RL"
+  category: "school"
+
+- place: "Daewoong Pharmaceutical"
+  time: "Dec 2018 - now"
+  title: "Scholarship Student"
+  subtitle: "Daewoong Foundation Scholarship <br/> AI based Healthcare Research Grant Program"
+  category: "work"
+
+- place: "KIST"
+  time: "2018.11.21"
+  title: "Minister of Science and ICT Award Winner"
+  subtitle: "Convergence Research Policy Center"
+  category: "award"
+
+- place: "Hyundai Mipo Dockyard"
+  time: "July 2017 – Dec 2017"
+  title: "Data Analyst, Intern"
+  subtitle: "Work for Data Mining and Business Analysis"
+  category: "work"
+
+- place: "UNIST"
+  time: "Mar 2016 - June 2017"
+  title: "M.Sc. Student"
+  subtitle: "Department of Industrial Engineering <br/> Research for applying Text Mining and Recommender Systems"
+  category: "school"
+
+- place: "Ajou University"
+  time: "2011 - 2015"
+  title: "B.Sc. Student"
+  subtitle: "Bachelor of Economics"
+  category: "school"

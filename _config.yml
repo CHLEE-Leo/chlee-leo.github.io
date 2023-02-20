@@ -1,0 +1,8 @@
+source:      .
+destination: ./_site
+includes:    ./_includes
+baseurl: /~chlee-leo.github.io
+
+collections:
+  projects:
+    output: true
