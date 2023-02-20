@@ -6,6 +6,9 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
+  In February 2023, I completed my Ph.D. in Industrial Engineering and won the best researcher award. My research area is at the intersection of natural language generation (NLG) and reinforcement learning (RL), and I wrote a dissertation on controllable sequence generation based on them.
+  </p>
+  <p>
   My research ddddddddd tools for analyzing <b>large-scale social data</b>, aiming to provide a better understanding of <b>social structure and behaviors</b> online while also impacting the <b>design of digital social systems</b>. 
   My recent work has focused on reducing political polarization online 
   [<a href="assets/publications/2022_newsbridge/paper.pdf" target="_blank">ICWSM'22a</a>,
@@ -31,6 +34,53 @@ title: Home
   </p> 
 </div>
 
+<div class="docs-section" id="research-interest">
+  <h4>Research interest</h4>
+  <p>
+  My research interest lies on the area of <b>controllable sequence generation (CSG) </b> that can be dissected into three elements: 1) control theory, 2) sequential estimation and 3) generative model. Therefore, the three elements must be considered in CSG research, and I usually take them into account according to the three steps as follows: 
+  <ol style="PADDING-LEFT:40px">
+  <li>Implementing policy-based RL methods to induce controllability (e.g., REINFORCE, PPO, TRPO, etc.)</li>
+  <li>Applying them into the langauge models of high capacities to estimate sequential patterns (e.g., Seq2Seq, Transformers, GPT3, etc.)</li>
+  <li>Optimizing the models to be controllable under the generative framework of unsupervised or self-supervised manners (e.g., AE, VAE, etc.)</li>
+  </ol>
+  
+  For the last two years of Ph.D., <b>I moslty focused on developing novel methods that control the generative models to produce sequences as intended,</b> following the three steps above <b>and tried to apply them to the real-world applications</b> such as diet planning [<a href="assets/publications/2021_diet_planning/paper.pdf" target="_blank">KDD'21</a>, <a href="assets/publications/2021_MIND_dataset/paper.pdf" target="_blank">NeurIPS'21</a>], operational recommendation [<a href="assets/publications/2022_recommendation_in_offline_stores/paper.pdf" target="_blank">KDD'22</a>], and drug repositioning [<a href="assets/publications/2023_levenshtein_agent/paper.pdf" target="_blank">ICML'23</a>] (<i>under-review</i>).
+  </p>
+  
+  <p>
+  As mentioned above, my research boundary is grounded on the middle territory between NLG and RL. On this background, my research interest in CSGs is recently extending from real-world applications to theoretical understanding. Specifically, <b>I study the theoretical foundations of how RL and NLP techniques get intertwined and fused on the lens of Bayesian perspectives.</b> There are four reasons why I prefer the Bayesian approach:
+  <ol style="PADDING-LEFT:40px">
+	  <li>Bayesian methods are one of the most straightforward tools for dealing with conditional distributions.
+		  <ul>
+			 <li>RL is a learning framework that estimates the conditional distribution over actions given states according to the Markov decision process.</li>
+			 <li>Language model describes a sequence by factorizing the joint distribution of words into the product of conditional distributions of tokens given previous tokens.</li>
+		  </ul>
+	  </li>
+	  <li>Bayesian methods provide us with a backdoor, called Variational Bayes, to approximate intractable distributions difficult to estimate directly.
+		  <ul>
+			<li>Variational inference (VI), a mathematical framework for (approximately) doing Bayesian inference, is even computationally cheap because it can be converted to a dual problem, i.e., maximizing ELBO.</li>
+		  </ul>
+	  </li>
+	  <li>Bayesian methods imply the probabilistic status of unobserved states, and it means implicit data augmentation comes into play in the latent space.
+	      <ul>
+		    <li>RL requires as many observations as possible to estimate a policy that maximizes the reward.</li>
+		  </ul>
+	  </li>
+	  <li>Bayesian methods are open to introducing tricks such as marginalization so that we can easily derive useful properties such as the amount of information.</li>
+  </ol>
+  
+  A paper titled " <a href="assets/publications/2023_levenshtein_agent/paper.pdf" target="_blank">Theoretical Principle of Controllable Generation</a> ," which deals with some of the topics related to the above four contents, was submitted to ICML'23, and is currently in the process of review. Recently, <b>I am thinking about how to introduce the concept of augmentation into CSGs research in the causal perspective through the Bayesian method.</b>
+  </p>
+</div>
+
+<div class="docs-section" id="postdoc">
+  <h4>Looking for Post-doc Positoin</h4>
+  <p>
+  Currently seeking a postdoctoral position.
+  </p>
+</div>
+
+<!--
 <div class="docs-section" id="prospective-students">  
   <h4>Prospective Students</h4>
   <p>
@@ -40,7 +90,7 @@ title: Home
   If you have any questions, feel free to reach out by email!
   </p> 
 </div>
-
+-->
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
@@ -233,39 +283,9 @@ title: Home
 </div>
 
 
-<div class="docs-section" id="template">
-    <h4>Website Design</h4>
-    Since I made this website, many people have found this Jekyll template useful
-    <a href="https://people.csail.mit.edu/davidam/" target="_blank">[1</a>,
-    <a href="https://thashim.github.io/" target="_blank">2</a>,
-    <a href="https://pauljwright.github.io/" target="_blank">3</a>,
-    <a href="https://bayesianbrad.github.io/" target="_blank">4</a>,
-    <a href="https://ahxt.github.io/" target="_blank">5</a>,
-    <a href="https://code-terminator.github.io/" target="_blank">6</a>,
-    <a href="https://dinacmistry.github.io/" target="_blank">7</a>,
-    <a href="https://stanniszhou.github.io/" target="_blank">8</a>,
-    <a href="http://binghongchen.net/" target="_blank">9</a>,
-    <a href="https://jirvin16.github.io/" target="_blank">10</a>,
-    <a href="https://mengliu1998.github.io/" target="_blank">11</a>,
-    <a href="https://amir-rahimi.github.io/" target="_blank">12</a>,
-    <a href="https://taoyds.github.io/" target="_blank">13</a>,
-    <a href="https://zhangjingtun.com/" target="_blank">14</a>,
-    <a href="https://www.saraiht.com/" target="_blank">15</a>,
-    <a href="https://tomyan555.github.io/" target="_blank">16</a>,
-    <a href="https://abhishekgrewal.github.io/" target="_blank">17</a>,
-    <a href="https://xuezhemax.github.io/" target="_blank">18</a>,
-    <a href="https://mmeendez8.github.io/" target="_blank">19</a>,
-    <a href="https://pkassraie.github.io/" target="_blank">20</a>,
-    <a href="https://ninasakhnini.dev/" target="_blank">21</a>,
-    <a href="http://www.yapengtian.com/" target="_blank">22</a>,
-    <a href="https://weijian-li.github.io/" target="_blank">23</a>,
-    <a href="https://www.seas.upenn.edu/~elenter/" target="_blank">24</a>,
-    <a href="https://cm-bf.github.io/" target="_blank">25</a>,
-    <a href="https://stuartburrell.github.io/" target="_blank">26</a>].
-    <!--<br/>-->
-    You can find all the code needed to build your website in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
-    Feel free to use it. <br/>
-
-    If you end up using it, please link to here and drop me an email.
-    I'm always happy to see people using it.
+<div class="docs-section" id="ack">
+  <h4>Acknowledgement</h4>
+  <p>
+    This website uses the website design and template by <a href="https://github.com/msaveski/www_personal">Martin Saveski</a>
+  </p>
 </div>
