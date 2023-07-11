@@ -1,5 +1,13 @@
 papers:
 
+  - title: "Theoretical Prinicple of Controllable Generation: Reinforcing the Levenshtein Agent Mitigates the Discrepancy Problem"
+    authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
+    venue: "Working Paper"
+    paper_pdf: "/assets/publications/2023_levenshtein_agent/paper.pdf"
+    selected: y
+    application: n
+    research: y
+
   - title: "Recommendation in Offline Stores: A Gamification Approach for Learning the Spatiotemporal Representation of Indoor Shopping"
     authors: "Jongkyung Shin<sup>‡</sup>, <b>Changhun Lee<sup>‡</sup></b>, Chiehyeon Lim, Yunmo Shin, Junseok Lim"
     venue: "KDD '22: The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining."
@@ -7,12 +15,16 @@ papers:
     code: "https://github.com/JK-SHIN-PG/gamification-offrec"
     data: "https://github.com/JK-SHIN-PG/gamification-offrec"
     selected: y
+    application: y
+    research: n
 
   - title: "Challenges of Diet Planning for Children using Artificial Intelligence"
     authors: "<b>Changhun Lee<sup>‡</sup></b>, Soohyeok Kim, Jayun Kim, Chiehyeon Lim, Minyoung Jung"
     venue: "Nutrition Research and Practice. 2022; 16."
     paper_pdf: "/assets/publications/2021_challenges_of_diet_planning/paper.pdf"
     selected: n
+    application: y
+    research: n
 
   - title: "MIND dataset for diet planning and dietary healthcare with machine learning: Dataset creation using combinatorial optimization and controllable generation with domain experts"
     authors: "<b>Changhun Lee<sup>‡</sup></b>, Soohyeok Kim<sup>‡</sup>, Sehwa Jeong, Jayun Kim, Yeji Kim, Chiehyeon Lim, Minyoung Jung"
@@ -22,6 +34,8 @@ papers:
     code: "https://github.com/Leo-Lee92/Diet-Generation-As-Sequence/tree/master/Code"
     data: "https://github.com/pki663/dietkit"
     selected: y
+    application: y
+    research: n
 
   - title: "Diet Planning with Machine Learning: Teacher-forced REINFORCE for Composition Compliance with Nutrition Enhancement"
     authors: "<b>Changhun Lee</b>, Soohyeok Kim, Chiehyeon Lim, Jayun Kim, Yeji Kim, Minyoung Jung"
@@ -29,15 +43,20 @@ papers:
     paper_pdf: "/assets/publications/2021_diet_planning/paper.pdf"
     code: "https://github.com/Leo-Lee92/Diet-Generation-As-Sequence/tree/master/Code"
     selected: y
+    application: y
+    research: n
 
   - title: "From technological development to social advance: A review of Industry 4.0 through machine learning"
     authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
     venue: "Technological Forecasting and Social Change, 167, 120653."
     paper_pdf: "/assets/publications/2021_industry_4.0/paper.pdf"
     selected: y
+    research: n
 
   - title: "Human dietitians vs. Artificial intelligence: Which diet design do you prefer for your children?"
     authors: "Min Jung, Chiehyeon Lim, <b>Changhun Lee</b>, Soohyeok Kim, Jayun Kim"
     venue: "Journal of Allergy and Clinical Immunology, 147(2), AB117."
     paper_pdf: "/assets/publications/2021_dietitians_vs_ai/paper.pdf"
     selected: n
+    application: y
+    research: n
