@@ -3,7 +3,7 @@ papers:
   - title: "Analyzing the Controllability of Language Models and Improving the Control Performance with Reward Dropout"
     authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
     venue: "Under Review"
-    paper_pdf: "/assets/publications/2023_reward_dropout/paper.pdf"
+    paper_pdf: "/assets/publications/2023_review/paper.pdf"
     selected: y
     application: n
     research: y
@@ -11,7 +11,7 @@ papers:
   - title: "Theoretical Principle of Controllable Generation: Reinforcing the Levenshtein Agent Mitigates the Discrepancy Problem"
     authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
     venue: "Working Paper"
-    paper_pdf: "/assets/publications/2023_levenshtein_agent/paper.pdf"
+    paper_pdf: "/assets/publications/2023_working/paper.pdf"
     selected: y
     application: n
     research: y
