@@ -67,14 +67,6 @@ title: Home
   <u>More recently, my research focus has shifted toward establishing the theoretical foundations of CLM.</u> This is important because understanding the theoretical basis for ensuring the controllability of AI models can minimize the risks that can arise from rule-of-thumb (i.e., unprincipled) practices for out-of-control situations, which can lead to catastrophic losses amounting to hundreds of billions of dollars in many sectors, e.g., finance, medical, security, transportation, etc. 
   </p>  
 
-  <div class="image-container">
-	<img src='{{ site.baseurl }}{{ site.data.images.pareto_image }}' class="u-max-full-width"></a>
-  </div> 
-  <div class="project-caption" style="text-align:left">
-    <b>Figure.2 (Dual-objective Nature of CLMs (far-left) and How to achieve Pareto Improvement (far-right)):</b> The Pareto frontier is a boundary within the objective space where the set of optimal policies π* belongs to. Each point represents a combination of objectives achieved by the policy at that point. The <b><span style="color:red">red</span></b> arrow indicates that we cannot increase reward without sacrificing likelihood, while the <b><span style="color:blue">blue</span></b> arrow indicates vice versa. The <b><span style="color:purple">purple</span></b> arrow and <b><span style="color:orange">orange</span></b> area denote potential direction and region, respectively, that improves both objectives simultaneously.
-  </div>
-  <br>
-
   <p>
   <u>Figure 2 describes my recent approach to CLMs from a theoretical perspective.</u> At the core of my approach is the assumption that <u><i>"developing controllable AI is equivalent to solving multi-objective optimization."</i></u> To be specific, controlling an AI model requires it to approximate real data distribution (i.e., likelihood objective) and obey user-intended directions (i.e., control objective, or reward objective) at the same time. <u>In other words, developing CLMs is a problem of searching for an optimal solution where both likelihood and reward objectives are satisfied.</u>
   </p>
@@ -83,7 +75,13 @@ title: Home
   Accordingly, I hypothesized that <u>the optimal solutions lie on the Pareto frontier,</u> as is typical for multi-objective optimization problems, and that <u>it is inevitable to sacrifice the likelihood for further increasing the reward.</u> These two hypotheses establish the theoretical foundation for the controllability of AI models, which is a unique aspect that distinguishes my approach from previous studies. You can see my work in recent papers that are <a href="assets/publications/2023_review/paper.pdf" target="_blank">under review</a> and <a href="assets/publications/2023_working/paper.pdf" target="_blank">in progress</a>.
   </p>
 
-  dddd
+  <div class="image-container">
+	<img src='{{ site.baseurl }}{{ site.data.images.pareto_image }}' class="u-max-full-width"></a>
+  </div> 
+  <div class="project-caption" style="text-align:left">
+    <b>Figure.2 (Dual-objective Nature of CLMs (far-left) and How to achieve Pareto Improvement (far-right)):</b> The Pareto frontier is a boundary within the objective space where the set of optimal policies π* belongs to. Each point represents a combination of objectives achieved by the policy at that point. The <b><span style="color:red">red</span></b> arrow indicates that we cannot increase reward without sacrificing likelihood, while the <b><span style="color:blue">blue</span></b> arrow indicates vice versa. The <b><span style="color:purple">purple</span></b> arrow and <b><span style="color:orange">orange</span></b> area denote potential direction and region, respectively, that improves both objectives simultaneously.
+  </div>
+  <br>
 
   <!--
   <p>
