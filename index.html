@@ -5,7 +5,8 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
- 
+
+  <!--
   <p>
   I got my B.Sc in Economics from Ajou University as an outstanding student in the top 10% of the major GPA. During this period, I was fascinated by the way economists view the world mathematically, and thus became interested in mathematical modeling and statistical analysis.<br><br>
   
@@ -22,6 +23,21 @@ title: Home
   
    I wrote my Ph.D dissertation on controllable sequence generation, titled <u><i>"Tackling Three Problems in Controlled Sequence Generations: Bridging Reinforcement Learning with Language Models."</i></u> &nbsp; I'm joining the Graduate School of Artificial Intelligence at UNIST as a Postdoc researcher from March 2023. Currently, I belong to <a href="https://service.unist.ac.kr/" target="_blank">the Service Intelligence Lab</a> that is led by <a href="https://scholar.google.co.kr/citations?user=NW7F08MAAAAJ&hl=ko&oi=ao" target="_blank">Prof.Chiehyeon Lim</a>, my advisor whom I truly respect. 
   </p>
+  -->
+  <p>
+  <span style="color:red">In Feburary 2015</span>, I got my B.Sc in Economics from Ajou University as an outstanding student in <u>the top 10% of the major GPA.</u><br><br>
+  
+  <span style="color:red">In February 2016</span>, I enrolled in the master's program in the Department of Industrial Engineering at Ulsan National Institute of Science and Technology (UNIST).<br></br>
+
+  For the first one and a half years <span style="color:red">(Jan 2016 - June 2017)</span>, I worked on <u>mathematically modeling optimization problem</u> and finding optimal solutions from a game-theoretic perspective. After that I spent half a year as a data analyst intern at Hyundai Mipo Dockyard <span style="color:red">(July 2017 - Dec 2017)</span>, mainly <u>working on language models (LMs) and text-mining algorithms.</u> Completing the internship, I returned to UNIST and transferred to the combined Master-Ph.D program.<br><br>
+
+  I spent the first two years of Ph.D. course <span style="color:red">(Jan 2018 - Jan 2020)</span> <u>interpreting real-world problems with advanced text-mining techniques.</u> For the last three years <span style="color:red">(Feb 2020 - Dec 2022)</span>, I focused on <u>solving real-world problems using controllable sequence models, or controllable language models (CLMs),</u> because I believe that in a future where AI is fully integrated into our lives, out-of-control AI will be a disaster. <br></br>
+
+  <span style="color:red">In February 2023</span>, <u>I wrote my Ph.D dissertation on controllable sequence generation,</u> titled <i>"Tackling Three Problems in Controlled Sequence Generations: Bridging Reinforcement Learning with Language Models."</i> and <u>won the best researcher award</u> in UNIST. <br></br>
+  
+  <span style="color:red"> From March 2023</span>, <u> I'm joining the Graduate School of Artificial Intelligence at UNIST as a Postdoc researcher</u>. Currently, I belong to <a href="https://service.unist.ac.kr/" target="_blank">the Service Intelligence Lab</a> that is led by <a href="https://scholar.google.co.kr/citations?user=NW7F08MAAAAJ&hl=ko&oi=ao" target="_blank">Prof.Chiehyeon Lim</a>, my advisor whom I truly respect. 
+  
+  </p>
 
   <p>
   I dream of becoming a researcher who is willing to stand up against prejudice and inequality in the world with logical thinking and a scientific attitude.
@@ -35,6 +51,8 @@ title: Home
 
 <div class="docs-section" id="research-interest">
   <h4>Research interest</h4>
+  <p>
+  <u>My research interest is to develop controllable language models (CLMs) for controllable sequence generation (CSG).</u> In general, I implement CLMs by treating LMs as agents and leveraging policy-based reinforcement learing (e.g., REINFORCE, TRPO, PPO, etc.,) to fine-tune the LM agents with human-instruction rewards. For the last two years of Ph.D., <u>I have published several papers proposing novel CLMs that specializes in real-world applications, </u> including diet planning [<a href="assets/publications/2021_diet_planning/paper.pdf" target="_blank">KDD'21</a>, <a href="assets/publications/2021_MIND_dataset/paper.pdf" target="_blank">NeurIPS'21</a>], operational recommendations [<a href="assets/publications/2022_recommendation_in_offline_stores/paper.pdf" target="_blank">KDD'22</a>], and drug repurposing [<a href="assets/publications/2023_working/paper.pdf" target="_blank">working paper</a>].
 
   <div class="image-container" style="float:left">
 	<img src='{{ site.baseurl }}{{ site.data.images.diet_planning }}' class="u-max-full-width" style="width:37.5%; float:left"></a>
@@ -46,7 +64,8 @@ title: Home
 
   <br>
   <p>
-  <b>My research interest is to develop controllable language models (CLMs) for controllable sequence generation (CSG).</b> In general, I implement CLMs by treating the (large) langugage models as agents and leveraging policy-based RL (e.g., <a href="https://link.springer.com/article/10.1007/BF00992696" target="_blank">REINFORCE</a>, <a href="https://proceedings.mlr.press/v37/schulman15.html" target="_blank">TRPO</a>, <a href="https://arxiv.org/abs/1707.06347" target="_blank">PPO</a>, etc.,) to fine-tune them with human-instruction rewards. <b>For the last two years of Ph.D., I have published several papers proposing novel CLMs that specializes in real-world applications, </b> including diet planning [<a href="assets/publications/2021_diet_planning/paper.pdf" target="_blank">KDD'21</a>, <a href="assets/publications/2021_MIND_dataset/paper.pdf" target="_blank">NeurIPS'21</a>], operational recommendations [<a href="assets/publications/2022_recommendation_in_offline_stores/paper.pdf" target="_blank">KDD'22</a>], and drug repurposing [<a href="assets/publications/2023_working/paper.pdf" target="_blank">working paper</a>].
+  <u>More recently, my research focus has shifted toward establishing the theoretical foundations of CLM.</u> This is important because understanding the theoretical basis for ensuring the controllability of AI models can minimize the risks that can arise from rule-of-thumb (i.e., unprincipled) practices for out-of-control situations, which can lead to catastrophic losses amounting to hundreds of billions of dollars in many sectors, e.g., finance, medical, security, transportation, etc. 
+  </p>  
 
   <div class="image-container">
 	<img src='{{ site.baseurl }}{{ site.data.images.pareto_image }}' class="u-max-full-width"></a>
@@ -54,14 +73,14 @@ title: Home
   <div class="project-caption" style="text-align:left">
     <b>Figure.2 (Dual-objective Nature of CLMs (far-left) and How to achieve Pareto Improvement (far-right)):</b> The Pareto frontier is a boundary within the objective space where the set of optimal policies π* belongs to. Each point represents a combination of objectives achieved by the policy at that point. The <b><span style="color:red">red</span></b> arrow indicates that we cannot increase reward without sacrificing likelihood, while the <b><span style="color:blue">blue</span></b> arrow indicates vice versa. The <b><span style="color:purple">purple</span></b> arrow and <b><span style="color:orange">orange</span></b> area denote potential direction and region, respectively, that improves both objectives simultaneously.
   </div>
-
   <br>
-  <p>
-  <b>More recently, my research focus has shifted toward establishing the theoretical foundations of CLM.</b> This is important because understanding the theoretical basis for ensuring the controllability of AI models can minimize the risks that can arise from rule-of-thumb (i.e., unprincipled) practices for out-of-control situations, which can lead to catastrophic losses amounting to hundreds of billions of dollars in many sectors, e.g., finance, medical, security, transportation, etc. 
-  </p>  
 
   <p>
-  <b>Figure 2 describes my approach to CLMs from a theoretical perspective.</b> At the core of my approach is the assumption that <b><i>"developing controllable AI is equivalent to solving multi-objective optimization."</i></b> To be specific, controlling an AI model requires it to approximate real data distribution (i.e., likelihood objective) and obey user-intended directions (i.e., control objective, or reward objective) at the same time. In other words, <b>developing CLMs is a problem of searching for an optimal solution where both likelihood and reward objectives are satisfied.</b> Accordingly, I hypothesized that <b>the optimal solutions lie on the Pareto frontier,</b> as is typical for multi-objective optimization problems, and that <b>it is inevitable to sacrifice the likelihood for further increasing the reward.</b> These two hypotheses establish the theoretical foundation for the controllability of AI models, which is a unique aspect that distinguishes my approach from previous studies. You can see my work in recent papers that are <a href="assets/publications/2023_review/paper.pdf" target="_blank">under review</a> and <a href="assets/publications/2023_working/paper.pdf" target="_blank">in progress</a>.
+  <u>Figure 2 describes my recent approach to CLMs from a theoretical perspective.</u> At the core of my approach is the assumption that <u><i>"developing controllable AI is equivalent to solving multi-objective optimization."</i></u> To be specific, controlling an AI model requires it to approximate real data distribution (i.e., likelihood objective) and obey user-intended directions (i.e., control objective, or reward objective) at the same time. <u>In other words, developing CLMs is a problem of searching for an optimal solution where both likelihood and reward objectives are satisfied.</u>
+  </p>
+
+  <p>
+  Accordingly, I hypothesized that <u>the optimal solutions lie on the Pareto frontier,</u> as is typical for multi-objective optimization problems, and that <u>it is inevitable to sacrifice the likelihood for further increasing the reward.</u> These two hypotheses establish the theoretical foundation for the controllability of AI models, which is a unique aspect that distinguishes my approach from previous studies. You can see my work in recent papers that are <a href="assets/publications/2023_review/paper.pdf" target="_blank">under review</a> and <a href="assets/publications/2023_working/paper.pdf" target="_blank">in progress</a>.
   </p>
 
   <!--
