@@ -18,7 +18,7 @@ papers:
 
   - title: "Recommendation in Offline Stores: A Gamification Approach for Learning the Spatiotemporal Representation of Indoor Shopping"
     authors: "Jongkyung Shin<sup>‡</sup>, <b>Changhun Lee<sup>‡</sup></b>, Chiehyeon Lim, Yunmo Shin, Junseok Lim"
-    venue: "KDD '22: The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining."
+    venue: "KDD '22: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining."
     paper_pdf: "/assets/publications/2022_recommendation_in_offline_stores/paper.pdf"
     code: "https://github.com/JK-SHIN-PG/gamification-offrec"
     data: "https://github.com/JK-SHIN-PG/gamification-offrec"

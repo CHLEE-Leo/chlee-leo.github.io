@@ -3,7 +3,7 @@ experiences:
 - place: "UNIST"
   time: "Mar 2023 - Aug 2023"
   title: "Postdoctor Researcher"
-  subtitle: "Graduate School of Artificial Intelligence <br/> Research on CSGs"
+  subtitle: "Graduate School of Artificial Intelligence <br/> Research for CLMs based on LMs and RL"
   category: "work"
 
 - place: "UNIST"
@@ -15,7 +15,7 @@ experiences:
 - place: "UNIST"
   time: "Jan 2018 - Feb 2023"
   title: "Ph.D. Student"
-  subtitle: "Department of Industrial Engineering <br/> Research for combining NLP techniques with RL"
+  subtitle: "Department of Industrial Engineering <br/> Research for CLMs based on LMs and RL"
   category: "school"
 
 - place: "Daewoong Pharmaceutical"
@@ -33,13 +33,13 @@ experiences:
 - place: "Hyundai Mipo Dockyard"
   time: "July 2017 – Dec 2017"
   title: "Data Analyst, Intern"
-  subtitle: "Work for Data Mining and Business Analysis"
+  subtitle: "Data analysis using LMs and Text-Mining"
   category: "work"
 
 - place: "UNIST"
   time: "Mar 2016 - June 2017"
   title: "M.Sc. Student"
-  subtitle: "Department of Industrial Engineering <br/> Research for applying Text Mining and Recommender Systems"
+  subtitle: "Department of Industrial Engineering <br/> Research for Sequential Modeling"
   category: "school"
 
 - place: "Ajou University"
