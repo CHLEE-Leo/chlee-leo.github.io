@@ -4,6 +4,8 @@ papers:
     authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
     venue: "Under Review"
     paper_pdf: "/assets/publications/2023_review/paper.pdf"
+    code: "https://github.com/CHLEE-Leo/controllability-of-LM"
+    data: "https://drive.google.com/drive/u/0/folders/1qOWjtDq8Ry2QRdKZvyGzSetFF-lggz7M"
     selected: y
     application: n
     research: y
