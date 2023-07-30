@@ -10,12 +10,13 @@ title: Home
   </p>
   
   <p>  
-  My research focuses on the interplay between generative models and reinforcement learning (RL) algorithms for developing controllable AI &mdash; especially in the context of large language models (LLMs). The goal of my research is to identify factors that ensure controllability of AI, analyze the identified factors to improve the reliability of AI, and thereby expand the applicability of AI in real life. My personal academic interests can be summarized as follows:
+  My research focuses on the interplay between generative models and reinforcement learning (RL) algorithms for developing controllable AI &mdash; especially in the context of large language models (LLMs). The goal of my research is to analyze the nature of controllability and utilize it to improve the controllability of AI. In this regard, academic keywords of personal interest are:
   <dl style="PADDING-LEFT: 40px">
 	<dt>
-		<li>Obejective Mismatch and Pareto Optimality</li>
+		<li><b>Pareto Optimality</b></li>
 	</dt>
 	<dd>
+		<p>To build controllable AI, the generative model must be optimized for the likelihood and control objectives simultaneously (jointly). Given this multi-objective nature, studying controllability from the perspective of Pareto optimality can provide the theoretical foundations of controllable AI.</p>
 		<!--
 		<li>
 			Pareto Optimal
@@ -27,9 +28,11 @@ title: Home
 	</dd>
 	<dt>
 		<!-- <li>Robustness to Changing Environment and Adeversarial Attack</li> -->
-		<li>Exposure Bias and Data Perturbation/Augmentation</li>
+		<!-- <li>Exposure Bias and Data Perturbation</li> -->
+		<li><b>Maximum Mutual Information</b></li>
 	</dt>
 	<dd>
+		<p>In terms of Pareto optimality, the more the Pareto improvement, the higher the controllability. Since mutual information represents the joint probability of two random variables, mapping both likelihood and control objectives onto the probability space together and maximizing their mutual information can provide a solution to the Pareto improvement.</p>
 		<!--
 		<li>
 			Generalization under Out-of-Distribution
@@ -44,9 +47,11 @@ title: Home
 	</dd>
 	<dt>
 		<!-- <li>Applicability</li> -->
-		<li>Latent Hole and Continuous Representation</li>
+		<!-- <li>Latent Hole and Continuous Representation</li> -->
+		<li><b>Approximation Methods</b></li>
 	</dt>
 	<dd>
+		<p>Computing mutual information is expensive, so it is necessary to "approximate" the maximum mutual information without estimating the exact amount of mutual information. Therefore, in my research, variational inference or perturbation techniques are the most preferred methodology and a research topic in itself.</p>
 		<!-- Increases the usecases of AI in industrial fields such as A, B, and C.
 		<li>
 			Definition of Domain-driven Problems
@@ -55,105 +60,12 @@ title: Home
 	</dd>
   </dl>
   </p>
-</div>
-
-<!-- ========== RESEARCH INTEREST ========== -->
-<div class="docs-section" id="research-interest">
-  <h4>Research Interest</h4>
-  <p>
-  <u>My research interest is to develop controllable language models (CLMs) for controllable sequence generation (CSG).</u> In general, I implement CLMs by treating LMs as agents and leveraging policy-based reinforcement learning (e.g., REINFORCE, TRPO, PPO, etc.,) to fine-tune the LM agents with human-instruction rewards. For the last two years of Ph.D., <u>I have published several papers proposing novel CLMs that specializes in real-world applications, </u> including diet planning [<a href="assets/publications/2021_diet_planning/paper.pdf" target="_blank">KDD'21</a>, <a href="assets/publications/2021_MIND_dataset/paper.pdf" target="_blank">NeurIPS'21</a>], operational recommendations [<a href="assets/publications/2022_recommendation_in_offline_stores/paper.pdf" target="_blank">KDD'22</a>], and drug repurposing [<a href="assets/publications/2023_working/paper.pdf" target="_blank">working paper</a>]. Figure 1 presents application examples of CSG, which can be addressed by CLMs.
-
-  <div class="image-container" style="float:left">
-	<img src='{{ site.baseurl }}{{ site.data.images.diet_planning }}' class="u-max-full-width" style="width:37.5%; float:left"></a>
-	<img src='{{ site.baseurl }}{{ site.data.images.drug_repurposing }}' class="u-max-full-width" style="width:60%; float:right"></a>
-  </div> 
-  <div class="project-caption" style="text-align:left">
-    <b>Figure.1 (Application Examples of CSG - diet planning (left) and drug repurposing (right))</b>: The data of interest is defined in a sequence format (e.g., diet sequence and compound sequence). The original sequence (i.e., a picture with the caption "before" in diet planning and "base" in drug repurposing examples, respectively) is edited into the desirable sequence whose target property (i.e., a color of diet and a target indication of drug) is controlled as intended.
-  </div>
-
-  <br>
-  <p>
-  <u>More recently, my research focus has shifted to establishing the theoretical foundations of CLM</u> because I believe that relying on rules-of-thumb (i.e., unprincipled) practices in out-of-control situations can be disastrous in areas that will potentially become increasingly dependent on AI (e.g., finance, medical, security, transportation, etc.) and that a theoretical understanding of the controllability of AI models can minimize this risk.
-  </p>
-
-  <p>
-  <u>Figure 2 describes my recent approach to CLMs from a theoretical perspective.</u> At the core of my approach is the assumption that <u><i>"developing controllable AI is equivalent to solving multi-objective optimization."</i></u> To be specific, controlling an AI model requires it to approximate real data distribution (i.e., likelihood objective) and obey user-intended directions (i.e., reward objective) simulataneously. <u>That is, developing CLMs is a problem of searching for an optimal solution where both likelihood and reward objectives are satisfied at the same time.</u>
-  </p>
-
-  <p>
-  Accordingly, <u>I hypothesized that the optimal solutions lie on the Pareto frontier,</u> as is typical for multi-objective optimization problems, <u>and that it is inevitable to sacrifice the likelihood for further increasing the reward.</u> These two hypotheses establish the theoretical foundation for the controllability of AI models, which is a unique aspect that distinguishes my approach from previous studies. You can see my work in recent papers that are <a href="assets/publications/2023_review/paper.pdf" target="_blank">under review</a> and <a href="assets/publications/2023_working/paper.pdf" target="_blank">in progress</a>.
-  </p>
-
-  <div class="image-container">
-	<img src='{{ site.baseurl }}{{ site.data.images.pareto_image }}' class="u-max-full-width"></a>
-  </div> 
-  <div class="project-caption" style="text-align:left">
-    <b>Figure.2 (Dual-objective Nature of CLMs (far-left) and How to achieve Pareto Improvement (far-right)):</b> The Pareto frontier is a boundary within the objective space where the set of optimal policies π* belongs to. Each point represents a combination of objectives achieved by the policy at that point. The <b><span style="color:red">red</span></b> arrow indicates that we cannot increase reward without sacrificing likelihood, while the <b><span style="color:blue">blue</span></b> arrow indicates vice versa. The <b><span style="color:purple">purple</span></b> arrow and <b><span style="color:orange">orange</span></b> area denote potential direction and region, respectively, that improves both objectives simultaneously.
-  </div>
-  <br>
-
-  <!--
-  <p>
-  This research area is dissected into three elements: 1) sequential model, 2) control theory, and 3) generative framework. Therefore, the three elements must be considered in CSG research, and I usually take them into account according to the three steps as follows: 
-  <ol style="PADDING-LEFT:40px">
-  <li>Building the langauge models of high capacities to estimate sequential patterns (e.g., Seq2Seq, Transformers, GPT3, etc.,).</li>
-  <li>Leveraging policy-based RL algorithms to induce controllability (e.g., REINFORCE, PPO, TRPO, etc.,).</li>
-  <li>Optimizing the language models to be controllable using RL algorithms under the generative framework of unsupervised or self-supervised manners (e.g., AE, VAE, etc.,).</li>
-  </ol>
-  </p>
   
   <p>
-  As mentioned above, my research boundary is grounded on the middle territory between NLG and RL. On this background, my research interest in CSGs is recently extending from real-world applications to theoretical understanding. Specifically, <b>I study the theoretical foundations of how RL and NLP techniques get intertwined and fused on the lens of Bayesian perspectives.</b> There are four reasons why I prefer the Bayesian approach:
-  <ol style="PADDING-LEFT:40px">
-	  <li>Bayesian methods are one of the most straightforward tools for dealing with conditional distributions.
-		  <ul>
-			 <li>RL is a learning framework that estimates the conditional distribution over actions given states according to the Markov decision process.</li>
-			 <li>Language model describes a sequence by factorizing the joint distribution of words into the product of conditional distributions of tokens given previous tokens.</li>
-		  </ul>
-	  </li>
-	  <li>Bayesian methods provide us with a powerful backdoor, called Variational Bayes, to approximate intractable distributions difficult to estimate directly.
-		  <ul>
-			<li>Variational inference (VI), a mathematical framework for (approximately) doing Bayesian inference, is even computationally cheap because it can be converted to a dual problem, i.e., maximizing ELBO.</li>
-		  </ul>
-	  </li>
-	  <li>Bayesian methods imply the probabilistic status of unobserved states, and it means implicit data augmentation comes into play in the latent space.
-	      <ul>
-		    <li>RL requires as many observations as possible to estimate a policy that maximizes the reward.</li>
-		  </ul>
-	  </li>
-	  <li>Bayesian methods are open to introducing tricks such as marginalization so that we can easily derive useful properties such as the amount of information.</li>
-  </ol>
-  
-  A paper titled " <a href="assets/publications/2023_levenshtein_agent/paper.pdf" target="_blank">Theoretical Principles of Controllable Generation</a> ," which deals with some of the topics related to the above four contents, was submitted to ICML'23, and is currently in the process of review. Recently, <b>I am thinking about how to introduce the concept of augmentation into CSG research in the causal perspective through the Bayesian method.</b>
-  </p>
-</div>
--->
-
-<!-- ========== POSTDOCS ========== -->
-<div class="docs-section" id="postdoc">
-  <h4>Co-work Opportunities</h4>
-  <p>
-  I am currently <b>looking for a post-doctoral position related to NLP and ML research.</b> I am interested in 
-  <ol style="PADDING-LEFT:40px">
-  <li>identifying theoretical foundations to guarantee the controllability of AI models, </li>
-  <li>building controllable AIs that are reliable from theoretical perspectives, </li>
-  <li>and applying them to solve real-world applications. </li>
-  </ol>
-  Of course, I am also open to any other interesting topics from both academic and business fields as long as they are relevant to NLP and ML research. If you are interested, please contact me at <a href="mailto:changhun@unist.ac.kr">changhun@unist.ac.kr</a>.
+  I received my Ph.D. in Feburary 2023 and won the best researcher award for my dissertation titled <i>"Tackling Three Problems in Controlled Sequence Generations: Bridging Reinforcement Learning with Language Models."</i>. Currently, I am a post-doc associate at the graduate school of artificial intelligence at UNIST, conducting <a href="assets/publications/2023_review/paper.pdf" target="_blank">research</a> to analyze controllability and improve the control performance of LLMs.
   </p>
 </div>
 
-<!--
-<div class="docs-section" id="prospective-students">  
-  <h4>Prospective Students</h4>
-  <p>
-  <b>I'm recruiting PhD students to start Fall 2023 at the University of Washington! </b>
-  I'm especially looking for students with a background and/or interest in <i>social network analysis, machine learning, causal inference, or natural language processing</i>, and are passionate about using computational methods to study how online social platforms can be reimagined to <i>enable better conversations, bridge political divides, and reduce the spread of misinformation</i>. 
-  If you are interested, please apply to the UW iSchool <a href="https://ischool.uw.edu/programs/phd/admissions" target="_blank">PhD program</a> and mention me in your application.
-  If you have any questions, feel free to reach out by email!
-  </p> 
-</div>
--->
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
@@ -321,6 +233,108 @@ title: Home
   </div>
 </div>
 
+
+<!-- ========== RESEARCH INTEREST ========== -->
+<div class="docs-section" id="research-interest">
+  <h4>Research Interest</h4>
+
+  <div class="image-container">
+	<img src='{{ site.baseurl }}{{ site.data.images.pareto_image }}' class="u-max-full-width"></a>
+  </div> 
+  <div class="project-caption" style="text-align:left">
+    <b>Figure.1 (Multi-objective Nature of CLMs (far-left) and How to achieve Pareto Improvement (far-right)):</b> The Pareto frontier is a boundary within the objective space where the set of optimal policies π* belongs to. Each point represents a combination of objectives achieved by the policy at that point. The <b><span style="color:red">red</span></b> arrow indicates that we cannot increase reward without sacrificing likelihood, while the <b><span style="color:blue">blue</span></b> arrow indicates vice versa. The <b><span style="color:purple">purple</span></b> arrow and <b><span style="color:orange">orange</span></b> area denote potential direction and region, respectively, that improves both objectives simultaneously.
+  </div>
+  <br>
+
+  <p>
+  <u>My research interest is to develop controllable language models (CLMs) for controllable sequence generation (CSG).</u> In general, I implement CLMs by treating LMs as agents and leveraging policy-based reinforcement learning (e.g., REINFORCE, TRPO, PPO, etc.,) to fine-tune the LM agents with human-instruction rewards. 
+  <p>
+  <u>More recently, my research focus has shifted to establishing the theoretical foundations of CLM</u> because I believe that relying on rules-of-thumb (i.e., unprincipled) practices in out-of-control situations can be disastrous in areas that will potentially become increasingly dependent on AI (e.g., finance, medical, security, transportation, etc.) and that a theoretical understanding of the controllability of AI models can minimize this risk.
+  </p>
+
+  <p>
+  <u>Figure 1 describes my recent approach to CLMs from a theoretical perspective.</u> At the core of my approach is the assumption that <u><i>"developing controllable AI is equivalent to solving multi-objective optimization."</i></u> To be specific, controlling an AI model requires it to approximate real data distribution (i.e., likelihood objective) and obey user-intended directions (i.e., reward objective) simulataneously. <u>That is, developing CLMs is a problem of searching for an optimal solution where both likelihood and reward objectives are satisfied at the same time.</u>
+  </p>
+
+  <p>
+  Accordingly, <u>I hypothesized that the optimal solutions lie on the Pareto frontier,</u> as is typical for multi-objective optimization problems, <u>and that it is inevitable to sacrifice the likelihood for further increasing the reward.</u> These two hypotheses establish the theoretical foundation for the controllability of AI models, which is a unique aspect that distinguishes my approach from previous studies. You can see my work in recent papers that are <a href="assets/publications/2023_review/paper.pdf" target="_blank">under review</a> and <a href="assets/publications/2023_working/paper.pdf" target="_blank">in progress</a>.
+  </p>
+
+  <p>
+  For the last two years of Ph.D., <u>I have published several papers proposing novel CLMs that specializes in real-world applications, </u> including diet planning [<a href="assets/publications/2021_diet_planning/paper.pdf" target="_blank">KDD'21</a>, <a href="assets/publications/2021_MIND_dataset/paper.pdf" target="_blank">NeurIPS'21</a>], operational recommendations [<a href="assets/publications/2022_recommendation_in_offline_stores/paper.pdf" target="_blank">KDD'22</a>], and drug repurposing [<a href="assets/publications/2023_working/paper.pdf" target="_blank">working paper</a>]. Figure 2 presents application examples of CSG, which can be addressed by CLMs.
+
+  <div class="image-container" style="float:left">
+	<img src='{{ site.baseurl }}{{ site.data.images.diet_planning }}' class="u-max-full-width" style="width:37.5%; float:left"></a>
+	<img src='{{ site.baseurl }}{{ site.data.images.drug_repurposing }}' class="u-max-full-width" style="width:60%; float:right"></a>
+  </div>
+  <div class="project-caption" style="text-align:left">
+	<b>Figure.2 (Application Examples of CSG - diet planning (left) and drug repurposing (right))</b>: The data of interest is defined in a sequence format (e.g., diet sequence and compound sequence). The original sequence (i.e., a picture with the caption "before" in diet planning and "base" in drug repurposing examples, respectively) is edited into the desirable sequence whose target property (i.e., a color of diet and a target indication of drug) is controlled as intended.
+  </div>
+  </p>
+
+  <!--
+  <p>
+  This research area is dissected into three elements: 1) sequential model, 2) control theory, and 3) generative framework. Therefore, the three elements must be considered in CSG research, and I usually take them into account according to the three steps as follows: 
+  <ol style="PADDING-LEFT:40px">
+  <li>Building the langauge models of high capacities to estimate sequential patterns (e.g., Seq2Seq, Transformers, GPT3, etc.,).</li>
+  <li>Leveraging policy-based RL algorithms to induce controllability (e.g., REINFORCE, PPO, TRPO, etc.,).</li>
+  <li>Optimizing the language models to be controllable using RL algorithms under the generative framework of unsupervised or self-supervised manners (e.g., AE, VAE, etc.,).</li>
+  </ol>
+  </p>
+  
+  <p>
+  As mentioned above, my research boundary is grounded on the middle territory between NLG and RL. On this background, my research interest in CSGs is recently extending from real-world applications to theoretical understanding. Specifically, <b>I study the theoretical foundations of how RL and NLP techniques get intertwined and fused on the lens of Bayesian perspectives.</b> There are four reasons why I prefer the Bayesian approach:
+  <ol style="PADDING-LEFT:40px">
+	  <li>Bayesian methods are one of the most straightforward tools for dealing with conditional distributions.
+		  <ul>
+			 <li>RL is a learning framework that estimates the conditional distribution over actions given states according to the Markov decision process.</li>
+			 <li>Language model describes a sequence by factorizing the joint distribution of words into the product of conditional distributions of tokens given previous tokens.</li>
+		  </ul>
+	  </li>
+	  <li>Bayesian methods provide us with a powerful backdoor, called Variational Bayes, to approximate intractable distributions difficult to estimate directly.
+		  <ul>
+			<li>Variational inference (VI), a mathematical framework for (approximately) doing Bayesian inference, is even computationally cheap because it can be converted to a dual problem, i.e., maximizing ELBO.</li>
+		  </ul>
+	  </li>
+	  <li>Bayesian methods imply the probabilistic status of unobserved states, and it means implicit data augmentation comes into play in the latent space.
+	      <ul>
+		    <li>RL requires as many observations as possible to estimate a policy that maximizes the reward.</li>
+		  </ul>
+	  </li>
+	  <li>Bayesian methods are open to introducing tricks such as marginalization so that we can easily derive useful properties such as the amount of information.</li>
+  </ol>
+  
+  A paper titled " <a href="assets/publications/2023_levenshtein_agent/paper.pdf" target="_blank">Theoretical Principles of Controllable Generation</a> ," which deals with some of the topics related to the above four contents, was submitted to ICML'23, and is currently in the process of review. Recently, <b>I am thinking about how to introduce the concept of augmentation into CSG research in the causal perspective through the Bayesian method.</b>
+  </p>
+</div>
+-->
+
+<!-- ========== POSTDOCS ========== -->
+<div class="docs-section" id="postdoc">
+  <h4>Co-work Opportunities</h4>
+  <p>
+  I am currently <b>looking for a post-doctoral position related to NLP and ML research.</b> I am interested in 
+  <ol style="PADDING-LEFT:40px">
+  <li>identifying theoretical foundations to guarantee the controllability of AI models, </li>
+  <li>building controllable AIs that are reliable from theoretical perspectives, </li>
+  <li>and applying them to solve real-world applications. </li>
+  </ol>
+  Of course, I am also open to any other interesting topics from both academic and business fields as long as they are relevant to NLP and ML research. If you are interested, please contact me at <a href="mailto:changhun@unist.ac.kr">changhun@unist.ac.kr</a>.
+  </p>
+</div>
+
+<!--
+<div class="docs-section" id="prospective-students">  
+  <h4>Prospective Students</h4>
+  <p>
+  <b>I'm recruiting PhD students to start Fall 2023 at the University of Washington! </b>
+  I'm especially looking for students with a background and/or interest in <i>social network analysis, machine learning, causal inference, or natural language processing</i>, and are passionate about using computational methods to study how online social platforms can be reimagined to <i>enable better conversations, bridge political divides, and reduce the spread of misinformation</i>. 
+  If you are interested, please apply to the UW iSchool <a href="https://ischool.uw.edu/programs/phd/admissions" target="_blank">PhD program</a> and mention me in your application.
+  If you have any questions, feel free to reach out by email!
+  </p> 
+</div>
+-->
+
 <!-- ========== PROJECTS ========== 
 <div class="docs-section" id="projects">
   <h4>Projects</h4>
@@ -409,7 +423,7 @@ title: Home
 
   <span style="color:red">In Feburary 2023</span>, <u>I wrote my Ph.D dissertation on controllable sequence generation,</u> titled <i>"Tackling Three Problems in Controlled Sequence Generations: Bridging Reinforcement Learning with Language Models."</i> and <u>won the best researcher award</u> in UNIST. <br></br>
   
-  <span style="color:red"> From March 2023</span>, <u> I'm joining the Graduate School of Artificial Intelligence at UNIST as a Postdoc researcher</u>. Currently, I belong to <a href="https://service.unist.ac.kr/" target="_blank">the Service Intelligence Lab</a> that is led by <a href="https://scholar.google.co.kr/citations?user=NW7F08MAAAAJ&hl=ko&oi=ao" target="_blank">Prof.Chiehyeon Lim</a>, my advisor whom I truly respect and appreciate. 
+  <span style="color:red"> From March 2023</span>, <u> I'm joining the Graduate School of Artificial Intelligence at UNIST as a post-doc associate</u>. Currently, I belong to <a href="https://service.unist.ac.kr/" target="_blank">the Service Intelligence Lab</a> that is led by <a href="https://scholar.google.co.kr/citations?user=NW7F08MAAAAJ&hl=ko&oi=ao" target="_blank">Prof.Chiehyeon Lim</a>, my advisor whom I truly respect and appreciate. 
   
   </p>
 
