@@ -13,7 +13,6 @@ papers:
   - title: "Theoretical Principle of Controllable Generation: Reinforcing the Levenshtein Agent Mitigates the Discrepancy Problem"
     authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
     venue: "Working Paper"
-    paper_pdf: "/assets/publications/2023_working/paper.pdf"
     selected: y
     application: n
     research: y
