@@ -1,5 +1,14 @@
 papers:
 
+  - title: "Reward Dropout Improves Control: Bi-objective Perspective on Reinforced LM"
+    authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
+    venue: " arXiv:2310.04483 "
+    paper_pdf: "/assets/publications/2024_preprint/paper.pdf"
+    code: "https://github.com/CHLEE-Leo/controllability-of-LM"
+    selected: y
+    application: n
+    research: y
+
   - title: "Recommendation in Offline Stores: A Gamification Approach for Learning the Spatiotemporal Representation of Indoor Shopping"
     authors: "Jongkyung Shin<sup>‡</sup>, <b>Changhun Lee<sup>‡</sup></b>, Chiehyeon Lim, Yunmo Shin, Junseok Lim"
     venue: "<b>KDD '22</b>: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining."
