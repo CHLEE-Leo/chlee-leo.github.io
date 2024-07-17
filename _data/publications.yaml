@@ -11,7 +11,7 @@ papers:
 
   - title: "Repurformer: Transformers for Repurposing-Aware Molecule Generation"
     authors: "<b>Changhun Lee</b>, Gyumin Lee"
-    venue: "Language + Molecules @ ACL 2024 (<b style='color:#55FAFF !important;'>Oral</b>)"
+    venue: "Language + Molecules @ ACL 2024 (<b style='color:#FD499B !important;'>Oral</b>)"
     paper_pdf: "/assets/publications/2024_repurformer/paper.pdf"
     selected: y
     application: y
@@ -19,7 +19,7 @@ papers:
 
   - title: "Recommendation in Offline Stores: A Gamification Approach for Learning the Spatiotemporal Representation of Indoor Shopping"
     authors: "Jongkyung Shin<sup>‡</sup>, <b>Changhun Lee<sup>‡</sup></b>, Chiehyeon Lim, Yunmo Shin, Junseok Lim"
-    venue: " <b>KDD '22</b>: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. (<b style='color:#55FAFF !important;'>Oral</b>)"
+    venue: " <b>KDD '22</b>: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. (<b style='color:#FD499B !important;'>Oral</b>)"
     paper_pdf: "/assets/publications/2022_recommendation_in_offline_stores/paper.pdf"
     code: "https://github.com/JK-SHIN-PG/gamification-offrec"
     data: "https://github.com/JK-SHIN-PG/gamification-offrec"
