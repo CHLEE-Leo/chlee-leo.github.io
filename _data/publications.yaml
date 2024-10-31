@@ -1,6 +1,6 @@
 papers:
 
-  - title: "Towards Pareto-Efficient RLHF: Paying Attention to a Few High-Reward Samples with Reward Dropou"
+  - title: "Towards Pareto-Efficient RLHF: Paying Attention to a Few High-Reward Samples with Reward Dropout"
     authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
     venue: "Findings of the Association for Computational Linguistics: <b><u>EMNLP 2024</u></b>"
     paper_pdf: "/assets/publications/2024_reward_dropout/paper.pdf"
