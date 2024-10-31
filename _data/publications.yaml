@@ -1,17 +1,16 @@
 papers:
 
-  - title: "Reward Dropout Improves Control: Bi-objective Perspective on Reinforced LM"
+  - title: "Towards Pareto-Efficient RLHF: Paying Attention to a Few High-Reward Samples with Reward Dropou"
     authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
-    venue: " arXiv:2310.04483 "
-    paper_pdf: "/assets/publications/2024_preprint/paper.pdf"
-    code: "https://github.com/CHLEE-Leo/controllability-of-LM"
+    venue: "Findings of the Association for Computational Linguistics: <b><u>EMNLP 2024</u></b>"
+    paper_pdf: "/assets/publications/2024_reward_dropout/paper.pdf"
     selected: y
     application: n
     research: y
 
   - title: "Repurformer: Transformers for Repurposing-Aware Molecule Generation"
     authors: "<b>Changhun Lee</b>, Gyumin Lee"
-    venue: "Language + Molecules @ ACL 2024 (<b style='color:#FD499B !important;'>Oral</b>)"
+    venue: "Language + Molecules @ <b><u>ACL 2024</u></b> (<b style='color:#FD499B !important;'>Oral</b>)"
     paper_pdf: "/assets/publications/2024_repurformer/paper.pdf"
     selected: y
     application: y
@@ -19,7 +18,7 @@ papers:
 
   - title: "Recommendation in Offline Stores: A Gamification Approach for Learning the Spatiotemporal Representation of Indoor Shopping"
     authors: "Jongkyung Shin<sup>‡</sup>, <b>Changhun Lee<sup>‡</sup></b>, Chiehyeon Lim, Yunmo Shin, Junseok Lim"
-    venue: " <b>KDD '22</b>: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. (<b style='color:#FD499B !important;'>Oral</b>)"
+    venue: " <b><u>KDD '22</u></b>: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. (<b style='color:#FD499B !important;'>Oral</b>)"
     paper_pdf: "/assets/publications/2022_recommendation_in_offline_stores/paper.pdf"
     code: "https://github.com/JK-SHIN-PG/gamification-offrec"
     data: "https://github.com/JK-SHIN-PG/gamification-offrec"
@@ -37,7 +36,7 @@ papers:
 
   - title: "MIND dataset for diet planning and dietary healthcare with machine learning: Dataset creation using combinatorial optimization and controllable generation with domain experts"
     authors: "<b>Changhun Lee<sup>‡</sup></b>, Soohyeok Kim<sup>‡</sup>, Sehwa Jeong, Jayun Kim, Yeji Kim, Chiehyeon Lim, Minyoung Jung"
-    venue: "Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (<b>NeurIPS</b> Datasets and Benchmarks 2021)"
+    venue: "Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (<b><u>NeurIPS</u></b> Datasets and Benchmarks 2021)"
     paper_pdf: "/assets/publications/2021_MIND_dataset/paper.pdf"
     code: "https://github.com/pki663/dietkit"
     code: "https://github.com/Leo-Lee92/Diet-Generation-As-Sequence/tree/master/Code"
@@ -48,7 +47,7 @@ papers:
 
   - title: "Diet Planning with Machine Learning: Teacher-forced REINFORCE for Composition Compliance with Nutrition Enhancement"
     authors: "<b>Changhun Lee</b>, Soohyeok Kim, Chiehyeon Lim, Jayun Kim, Yeji Kim, Minyoung Jung"
-    venue: "<b>KDD '21:</b> Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining."
+    venue: "<b><u>KDD '21:</u></b> Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining."
     paper_pdf: "/assets/publications/2021_diet_planning/paper.pdf"
     code: "https://github.com/Leo-Lee92/Diet-Generation-As-Sequence/tree/master/Code"
     selected: y
