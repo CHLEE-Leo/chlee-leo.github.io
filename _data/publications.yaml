@@ -4,6 +4,7 @@ papers:
     authors: "<b>Changhun Lee</b>, Chiehyeon Lim"
     venue: "Findings of the Association for Computational Linguistics: <b><u>EMNLP 2024</u></b>"
     paper_pdf: "/assets/publications/2024_reward_dropout/paper.pdf"
+    code: "https://github.com/CHLEE-Leo/Reward-Dropout.git"
     selected: y
     application: n
     research: y
