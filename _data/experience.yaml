@@ -1,9 +1,14 @@
 experiences:
+- place: "Columbia University"
+  time: "Feb 2025 - Present"
+  title: "Postdoctor Scientist"
+  subtitle: "Department of Biomedical Informatics <br/> Research on HCI"
+  category: "work"
 
 - place: "UNIST"
-  time: "Mar 2023 - Aug 2023"
+  time: "Mar 2023 - Present"
   title: "Postdoctor Researcher"
-  subtitle: "Graduate School of Artificial Intelligence <br/> Research for CLMs based on LMs and RL"
+  subtitle: "Department of Industrial Engineering <br/> Research on RLHF"
   category: "work"
 
 - place: "UNIST"
@@ -15,7 +20,7 @@ experiences:
 - place: "UNIST"
   time: "Jan 2018 - Feb 2023"
   title: "Ph.D. Student"
-  subtitle: "Department of Industrial Engineering <br/> Research for CLMs based on LMs and RL"
+  subtitle: "Department of Industrial Engineering <br/> Research on AI4Healthcare & AI4Science"
   category: "school"
 
 - place: "Daewoong Pharmaceutical"
